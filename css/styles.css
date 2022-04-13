@@ -1,0 +1,122 @@
+/* Tag Selector */
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-family: 'Inter', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+footer{
+    padding: 5%; 
+    text-align: center;
+    background-color: #351f54;
+}
+
+
+/* Class Selectors */
+.about-me{
+    background-color: #004138;
+    padding: 5%;
+    line-height: 2;
+}
+.about-me-description p{
+    font-family: 'Inter', sans-serif;
+    color:#DAD6D7;
+    font-weight:400px;
+}
+.about-me-description h2{
+    font-family: 'Catamaran', sans-serif;
+    font-weight:bold;
+    color:#C9C5C2;
+}
+.about-me img{
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+.big-heading{
+    padding-top: 10%;
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bold;
+    font-size: 6.25rem;
+}
+.card{
+    background-color:#08695c;
+}
+.card-text{
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    color:#C9C5C2;
+}
+.contact-me{
+    background-color:#b68cf0;
+    padding:5%;
+}
+.edu-point{
+    font-family: 'Catamaran',sans-serif ;
+    font-weight: bold;
+}
+.education-set{
+    background-color: #c09eef;
+    padding: 5%;
+}
+
+.intro{
+    padding: 5%;
+    background-color: #C2ADE0;
+    line-height: 2; 
+}
+.my-background{
+    padding:5%;
+    line-height: 2;
+    background-color: #C2ADE0;
+
+}
+.self-description{
+    font-family: 'Catamaran', sans-serif;
+}
+.self-position{
+    font-family: 'Inter', sans-serif;
+}
+.skill-set{
+  background-color: #b68cf0;
+  padding: 5%;
+}
+.show-project{
+    padding: 5%;
+    background-color: #004138;
+}
+.show-project h2{
+    font-family: 'Catamaran', sans-serif;
+    font-weight:bold;
+    color:#C9C5C2;
+}
+
+
+
+/* ID Selector */
+#profile-image{
+    width: 75%;
+    position: relative; 
+}
+
+
+
+/* Media Selectors */
+@media (max-width: 768px) {
+    .intro{
+        text-align: center;
+    }
+    .about-me{
+        text-align: center;
+    }
+    .my-background{
+        text-align: center;
+    }
+    .show-project{
+        text-align: center;
+    }
+}
